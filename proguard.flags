@@ -94,3 +94,7 @@
 -keep interface com.android.launcher3.userevent.nano.LauncherLogProto.** {
   *;
 }
+
+-keep class com.android.launcher3.graphics.FixedScaleDrawable {
+  *;
+}
